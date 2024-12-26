@@ -310,7 +310,8 @@ The link above uses the href and target attributes.
   Your browser does not support the video element.
 </video>
 ```
-Semantic Tags
+## Semantic Tags
+```html
 <header>Header Content</header>
 <footer>Footer Content</footer>
 <article>Article Content</article>
@@ -318,79 +319,102 @@ Semantic Tags
 <nav>Navigation Links</nav>
 <aside>Sidebar Content</aside>
 <main>Main Content</main>
+```
 
-HTML5 Input Types
+## HTML5 Input Types
+```html
 <input type="email" name="email"> <!-- Email input -->
 <input type="tel" name="phone"> <!-- Telephone input -->
 <input type="date" name="dob"> <!-- Date input -->
 <input type="number" name="age"> <!-- Number input -->
 <input type="range" name="volume"> <!-- Range slider -->
 <input type="color" name="color"> <!-- Color picker -->
+```
 
-Canvas
+## Canvas
+```html
 <canvas id="myCanvas" width="200" height="200">
 Your browser does not support the canvas element.
 </canvas>
+```
 
-Inline Elements
+## Inline Elements
+```html
 <span>Inline Text</span>
 <a href="#">Clickable Link</a>
 <strong>Bold Inline Text</strong>
 <em>Italic Inline Text</em>
+```
 
-Block Elements
+## Block Elements
+```html
 <div>Block Content</div>
 <p>Paragraph Text</p>
 <header>Header Block</header>
 <footer>Footer Block</footer>
+```
 
-Forms with Fieldsets and Legends
+## Forms with Fieldsets and Legends
+```html
 <form action="/submit" method="POST">
-<fieldset>
-<legend>Personal Information</legend>
-<label for="name">Name:</label>
-<input type="text" id="name" name="name"><br>
-<label for="email">Email:</label>
-<input type="email" id="email" name="email"><br>
-</fieldset>
-<input type="submit" value="Submit">
+  <fieldset>
+    <legend>Personal Information</legend>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br>
+  </fieldset>
+  <input type="submit" value="Submit">
 </form>
+```
 
-SVG Graphics
+## SVG Graphics
+```html
 <svg width="100" height="100">
-<circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
+  <circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
 </svg>
+```
 
-HTML Comments
+## HTML Comments
+```html
 <!-- This is a comment. Comments are not displayed in the browser. -->
+```
 
-Deprecated Tags (Do Not Use)
+## Deprecated Tags (Do Not Use)
+```html
 <font color="red">Deprecated Text</font>
 <center>Centered Text</center>
+```
 
-Multimedia with Source Fallback
+## Multimedia with Source Fallback
+```html
 <audio controls>
-<source src="audio.mp3" type="audio/mpeg">
-<source src="audio.ogg" type="audio/ogg">
-Your browser does not support the audio element.
+  <source src="audio.mp3" type="audio/mpeg">
+  <source src="audio.ogg" type="audio/ogg">
+  Your browser does not support the audio element.
 </audio>
 
 <video controls>
-<source src="video.mp4" type="video/mp4">
-<source src="video.webm" type="video/webm">
-Your browser does not support the video element.
+  <source src="video.mp4" type="video/mp4">
+  <source src="video.webm" type="video/webm">
+  Your browser does not support the video element.
 </video>
+```
 
-Accessibility Features
+## Accessibility Features
+```html
 <img src="image.jpg" alt="Description of the image"> <!-- Alt text for images -->
 <a href="#content" aria-label="Skip to main content">Skip to Content</a> <!-- ARIA attribute -->
 <button aria-pressed="false">Toggle Button</button>
+```
 
-iFrames
+## iFrames
+```html
 <iframe src="https://example.com" width="600" height="400" title="Example iframe">
 Your browser does not support iFrames.
 </iframe>
+```
 
-Inline Styles
+## Inline Styles
+```html
 <p style="color: blue; font-size: 18px;">Styled Paragraph</p>
-
